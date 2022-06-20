@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
-html{
+body{
     color: #464655;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .clear-both {
@@ -16,8 +17,9 @@ html{
 
 #logo{
     float: left;
-    margin-top: 1.5em;
-    margin-left: 1em;
+    /* margin-top: 1.5em;
+    margin-left: 1em; */
+    font-size: 2.5em;
 }
 
 #nav{
