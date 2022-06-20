@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    
+    <title>Home</title>
+
+    <style>
+        #midContain{
+            background-color: #FFADCD;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="topContain">
+        <span id="logo"></span>
+
+        <div id="nav">
+            <ul class="nav justify-content-end text-reset">
+                <li class="nav-item text-reset" id="navHome">
+                  <a class="nav-link text-reset colorFix" href="index.html">home</a>
+                </li>
+
+                <li class="nav-item text-reset" id="navAbout">
+                  <a class="nav-link text-reset colorFix" href="about.html">about</a>
+                </li>
+
+                <li class="nav-item text-reset" id="navResume">
+                  <a class="nav-link text-reset colorFix" href="#">resume</a>
+                </li>
+
+                <li class="nav-item text-reset" id="navContact">
+                    <a class="nav-link text-reset colorFix" href="contact.html">contact</a>
+                  </li>
+              </ul>
+        </div>
+
+        <div class="clear-both"></div>
+    </div>
+
+    <div id="midContain">
+        <p>Coming eventually</p>
+    </div>
+
+    <script src="https://unpkg.com/typeit@8.6.0/dist/index.umd.js"></script>
+    <script>
+      new TypeIt("#logo", { 
+        lifeLike: false, 
+        speed: 0 
+    })
+      .type("c")
+      .pause(243)
+      .type("h")
+      .pause(279)
+      .type("l")
+      .pause(196)
+      .type("o")
+      .pause(70)
+      .type("e")
+      .pause(573)
+      .type("s")
+      .pause(600)
+      .delete(1)
+      .pause(573)
+      .type("S")
+      .move(null, { to: "END" })
+      .pause(129)
+      .type("t")
+      .pause(296)
+      .type("o")
+      .pause(238)
+      .type("n")
+      .pause(83)
+      .type("e")
+      .pause(228)
+      .type("c")
+      .pause(158)
+      .type("i")
+      .pause(195)
+      .type("p")
+      .pause(254)
+      .type("h")
+      .pause(79)
+      .type("e")
+      .pause(182)
+      .type("r")
+      .go();
+    </script>
+</body>
+
+</html>
