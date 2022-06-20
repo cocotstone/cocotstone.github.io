@@ -23,7 +23,7 @@ body{
 }
 
 #nav{
-
+    
 }
 
 #navHome{
@@ -40,6 +40,10 @@ body{
 
 #navContact{
     background-color: #FFADCD;
+}
+
+.colorFix, .colorFix:hover{
+    color: #464655;
 }
 
 #midContain{
