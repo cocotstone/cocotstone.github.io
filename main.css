@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+html{
+    color: #464655;
+}
+
+.clear-both {
+    clear: both;
+ }
+
+#topContain{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 5em;
+}
+
+#logo{
+    float: left;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+#nav{
+
+}
+
+#navHome{
+    background-color: #FFE5EF;
+}
+
+#navAbout{
+    background-color: #FFD6E6;
+}
+
+#navResume{
+    background-color: #FFC2D9;
+}
+
+#navContact{
+    background-color: #FFADCD;
+}
+
+#midContain{
+    
+}
